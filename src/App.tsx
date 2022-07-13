@@ -1,11 +1,7 @@
-import React from "react";
+import { Home } from "./components/pages";
 
 const App = () => {
-  return (
-    <div className="">
-      <h1>React Native NFT Showcase</h1>
-    </div>
-  );
+  return <Home />;
 };
 
 export default App;
